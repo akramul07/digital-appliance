@@ -252,6 +252,7 @@ h4 {
 .content-left img {
     padding: 30px;
     width: 550px;
+    height: 300px;
     border-radius: 10px;
 }
 
@@ -304,6 +305,11 @@ footer p {
         text-align: center;
     }
 
+
+
+    /* =======================================
+                     main header strt 
+                    ======================================== */
     .header-container {
         display: grid;
         grid-template-rows: repeat(1, 1fr);
@@ -311,13 +317,11 @@ footer p {
         padding: 20px;
         height: 100%;
         width: 100%;
+        justify-items: center;
     }
 
-    /* =======================================
-                     main header strt 
-                    ======================================== */
-    .header-container {
-        justify-items: center;
+    #main-heading {
+        font-size: 10px;
     }
 
     .left-header {
@@ -383,6 +387,7 @@ footer p {
                     ======================================== */
     footer {
         width: 100%;
+
     }
 }
 
@@ -414,13 +419,14 @@ footer p {
         align-content: space-around;
     }
 
-.right-nav li{
-    padding-left: 10px;
-}
+    .right-nav li {
+        padding-left: 10px;
+    }
+
     .left-nav {
         padding-left: 5px;
         margin-left: 5px;
-    
+
     }
 
     .left-nav h2 {
@@ -431,16 +437,18 @@ footer p {
     }
 
     /* ------------------header section----------------------- */
-.right-header{
-    margin: 5px;
-    padding: 10px;
-}
-.header-background{
-    width: 50px;
-}
-.laptop{
-    width: 50px; 
-}
+    .right-header {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .header-background {
+        width: 50px;
+    }
+
+    .laptop {
+        width: 50px;
+    }
 
 
 
@@ -457,10 +465,10 @@ footer p {
         margin: 10px;
     }
 
-    .main-section{
+    .main-section {
         width: 100%;
         align-items: center;
-       margin-left: 25px;
+        margin-left: 25px;
     }
 
     #main-heading {
@@ -476,16 +484,19 @@ footer p {
     .container {
         padding: 10px;
     }
-/* ================last section====================== */
-.content-left img{
-    width: 300px;
+
+    /* ================last section====================== */
+    .content-left img {
+        width: 300px;
+    }
+
+    /* =================footer section====================*/
+    footer {
+        height: 100%;
+        width: 100%;
+        margin: 300px 0px 0px 0px;
+        padding: 0px;
+    }
 }
 
-/* =================footer section====================*/
-footer{
-    height: 100%;
-    width: 100%;
-    margin: 300px 0px 0px 0px;
-    padding: 0px;
-}
-}
+/* ALLAH HAFEZ SEE U NEX MODULE INSA ALLAH  */
