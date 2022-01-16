@@ -1,76 +1,91 @@
-body{
+body {
     background-color: whitesmoke;
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
+
 /* =====================
         top navigation and menubar start ======================================= */
-.navbar{
+.navbar {
     display: flex;
     width: 90%;
     justify-content: space-between
 }
-nav{
-   height: 80px;
-   padding-top: 90px;
-    
+
+nav {
+    height: 80px;
+    padding-top: 90px;
+
 }
-.left-nav{
+
+.left-nav {
     width: 40%;
     padding-left: 100px;
 }
-.right-nav{
+
+.right-nav {
     padding-left: 100px;
 }
-.right-nav ul li{
-    list-style: none; 
-    padding-left: 20px; 
+
+.right-nav ul li {
+    list-style: none;
+    padding-left: 20px;
 }
-.right-nav ul{
+
+.right-nav ul {
     display: flex;
 }
-.fas{
+
+.fas {
     padding-left: 5px;
 }
-.right-nav ul .fas, li:hover{
+
+.right-nav ul .fas,
+li:hover {
     color: #ee5f26;
     cursor: pointer;
 }
+
 /* ============================
                 main header start
                 ============================== */
-.header-container{
+.header-container {
     display: flex;
     flex-direction: row;
     width: 90%;
-    justify-content:space-between;
-   margin-top: 150px;
-   
+    justify-content: space-between;
+    margin-top: 150px;
+
 }
-.text-highlight{
+
+.text-highlight {
     color: #ee5f26;
 }
-.left-header{
+
+.left-header {
     width: 50%;
     padding-left: 100px;
 }
-.left-header p{
+
+.left-header p {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: 400;
     left: 120px;
     top: 87px;
     text-align: justify;
-    
+
 }
-#main-heading{
+
+#main-heading {
     font-weight: bold;
     font-size: 60px;
     margin: 0px auto auto auto;
     color: rgb(117, 112, 112);
 }
-button{
+
+button {
     font-size: 20px;
     background-color: #ee5f26;
     text-transform: uppercase;
@@ -82,29 +97,32 @@ button{
     color: white;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     color: black;
     font-size: 25px;
 }
 
-.header-background{
+.header-background {
     height: 375px;
     height: 475px;
     position: absolute;
-    }
-.right-header img{
+}
+
+.right-header img {
     height: 300px;
     width: 400px;
     position: absolute;
 }
 
-.right-header{
+.right-header {
     position: relative;
     width: 50px;
     padding-left: 300px;
-    
+
 }
-.left-header{
+
+.left-header {
     height: 400px;
     width: 600px;
     margin-left: 120px;
@@ -113,10 +131,12 @@ button:hover{
     text-align: justify;
     border-radius: 5px;
 }
-.left-header:hover{
-    box-shadow: 0 30px 35px rgba(0,0,0,.2);
+
+.left-header:hover {
+    box-shadow: 0 30px 35px rgba(0, 0, 0, .2);
 }
-.right-header{
+
+.right-header {
     height: 400px;
     width: 600px;
     margin-left: 120px;
@@ -124,48 +144,57 @@ button:hover{
     color: rgb(105, 105, 103);
     border-radius: 5px;
 }
-.right-header:hover{
-    box-shadow: 0 30px 35px rgba(0,0,0,.2);
+
+.right-header:hover {
+    box-shadow: 0 30px 35px rgba(0, 0, 0, .2);
 
 
 }
+
 /* =================================== 
                  main section start
     ======================================================== */
-.main-section{
+.main-section {
     max-width: 90%;
     margin: 50px 100px;
 
 }
-.product-gallery{
+
+.product-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     align-items: center;
     margin: 50px 120px;
 }
-.main-section h2{
+
+.main-section h2 {
     text-align: center;
     padding: 20px;
     font-weight: 700;
 
 }
-.container{
+
+.container {
     background-color: white;
     width: 300px;
     padding: 50px;
     border-radius: 10px;
-    box-shadow: 0 20px 30px rgba(0,0,0,.2);
-    
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .2);
+
 }
-.container div{
+
+.container div {
     justify-content: center;
 }
-#product-name{
+
+#product-name {
     color: rgb(117, 112, 112);
-    
+
 }
-.product-detail, h4{
+
+.product-detail,
+h4 {
     text-align: left;
     margin: 0px;
     padding: 0px;
@@ -173,196 +202,290 @@ button:hover{
     font-size: 16px;
     display: inline-block;
 }
-.filled,.half{
-    color:#ee5f26; 
+
+.filled,
+.half {
+    color: #ee5f26;
 }
-.text-container{
+
+.text-container {
     height: 100px;
     width: 200px;
     font-family: 'Nunito Sans', sans-serif;
     margin-top: 50px;
 }
-.see-more-button{
+
+.see-more-button {
     text-align: right;
     padding-right: 150px;
     color: #ee5f26;
 }
+
 /* =======================================
                        last section start 
                     ========================================== */
-.discount-section{
+.discount-section {
     height: 300px;
     max-width: 100%;
     padding: 50px;
     margin: 20px;
 }
-.content-area{
+
+.content-area {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     border-radius: 10px;
     margin: 20px;
 }
-.content-left{
+
+.content-left {
     width: 600px;
     border-radius: 10px;
-    box-shadow: 0 20px 30px rgba(0,0,0,.2);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, .2);
 }
-.content-right{
+
+.content-right {
     padding: 20px;
 }
-.content-left img{
+
+.content-left img {
     padding: 30px;
     width: 550px;
     border-radius: 10px;
 }
-.content-right u{
+
+.content-right u {
     color: #ee5f26;
 }
+
 /* ===================================
                     footer section start 
                   ============================================== */
-footer{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    justify-items: center;
+footer {
     background-color: black;
     height: 120px;
-    padding: 30px;
-    margin: 50px 0px;
+    margin: 200px 0px 0px 0px;
+    padding: 20px
 }
-footer div{
-    position: relative;
-}
-.text{
+
+footer p {
     color: white;
-    margin: 0px;
-    text-align: center;
-    position: absolute;
-}
-.fab{
-    color: white;
-    font-size: 20px;
-    padding: 5px;
     text-align: center;
 }
-.text{
+
+.footer-text {
     font-size: 15px;
 }
+
 /* =======================================================
                  Responsive for small screen start
    ======================================================== */
-@media only screen and (max-width:688px){
-  body{
-    margin: 0%;
-    padding: 0%;
-  }
-      
-    .navbar{
-      padding: 0px;
-  }
-    
-  .right-nav{
-    display: none;
-  }
-  .left-nav{
-    justify-content: center;
-    margin-left: 120px;
-    font-size: 12px;
-    padding: 10px;
-    text-align: center;
-  }
-     
-.header-container{
-    display: grid;
-    grid-template-rows: repeat(1, 1fr);
-    align-content: center;
-    padding: 20px;
-    height: 100%;
-    width: 100%;
-}
-/* =======================================
+@media only screen and (max-width:688px) {
+    body {
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 0px;
+    }
+
+    .right-nav {
+        display: none;
+    }
+
+    .left-nav {
+        justify-content: center;
+        margin-left: 120px;
+        font-size: 12px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header-container {
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        align-content: center;
+        padding: 20px;
+        height: 100%;
+        width: 100%;
+    }
+
+    /* =======================================
                      main header strt 
                     ======================================== */
-.header-container{
-    justify-items: center;
-}
-.left-header{
-    margin: 0%;
-    padding: 2%;
-    height: 100%;
-    width: 60%;
-}
+    .header-container {
+        justify-items: center;
+    }
 
-.right-header{
-    margin-left: 10%;
-    padding: 20px 10px;
-    width: 100%;
-}
-/* =======================================
+    .left-header {
+        margin: 0%;
+        height: 100%;
+        width: 60%;
+    }
+
+    .right-header {
+        margin-top: 80px;
+        padding: 20px 10px;
+        width: 100%;
+    }
+
+    /* =======================================
                      main section strt 
                     ======================================== */
-.main-section{
-    width: 100%;
-    align-content: center;
-    margin: 30px;
-    
-}
+    .main-section {
+        width: 100%;
+        align-content: center;
+        margin: 30px;
 
-#main-heading{
-    font-size:0px;
-}
-.product-gallery{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-}
-/* =======================================
+    }
+
+    #main-heading {
+        font-size: 0px;
+    }
+
+    .product-gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    /* =======================================
                      last section strt 
                     ======================================== */
-.discount-section{
-    height: 100%;
-    width: 100%;
-}
-.content-area{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-.content-left img{
-    padding: 0px;
-}
+    .discount-section {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+    }
 
-/* =======================================
+    .content-area {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content-left img {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .content-right,
+    .content-left {
+        margin: 50px 0px 100px 5px;
+        width: 400px;
+    }
+
+    /* =======================================
                      footer section start 
                     ======================================== */
-footer{
-    width: 100%;
+    footer {
+        width: 100%;
+    }
 }
-}
+
 /* =======================================
 ================================================
                      resposivness for tablet mood
                      ========================================
                     ======================================== */
-@media only screen and (min-width: 689px) and(max-width: 992px){
-    body{
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    body {
         margin: 0%;
         padding: 0%;
-      }
-                  
+    }
 
+    /* ------------------nav-section------------------ */
+    .navbar {
+        width: 100%;
+        height: 120px;
+        align-items: center;
+
+    }
+
+    .right-nav {
+        font-size: 15px;
+        width: 50%;
+        padding: auto 10px 20px 0px;
+        align-content: center;
+        text-align: center;
+        align-content: space-around;
+    }
+
+.right-nav li{
+    padding-left: 10px;
+}
+    .left-nav {
+        padding-left: 5px;
+        margin-left: 5px;
     
+    }
+
+    .left-nav h2 {
+        width: 50%;
+        margin-right: 20px;
+        font-size: 20px;
+        padding-left: 10px;
+    }
+
+    /* ------------------header section----------------------- */
+.right-header{
+    margin: 5px;
+    padding: 10px;
+}
+.header-background{
+    width: 50px;
+}
+.laptop{
+    width: 50px; 
+}
 
 
 
 
+    /* =======================================
+                     main section strt 
+                    ======================================== */
 
+    .header-container {
+        padding: 120px 10px;
+    }
 
+    .left-header {
+        margin: 10px;
+    }
 
+    .main-section{
+        width: 100%;
+        align-items: center;
+       margin-left: 25px;
+    }
 
+    #main-heading {
+        font-size: 0px;
+    }
 
+    .product-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
 
+    .container {
+        padding: 10px;
+    }
+/* ================last section====================== */
+.content-left img{
+    width: 300px;
+}
 
-
-
-
+/* =================footer section====================*/
+footer{
+    height: 100%;
+    width: 100%;
+    margin: 300px 0px 0px 0px;
+    padding: 0px;
+}
+}
