@@ -4,6 +4,8 @@ body{
     padding: 0px;
     font-family: 'Poppins', sans-serif;
 }
+/* =====================
+        top navigation and menubar start ======================================= */
 .navbar{
     display: flex;
     width: 90%;
@@ -29,13 +31,15 @@ nav{
     display: flex;
 }
 .fas{
-    padding-left: 20px;
+    padding-left: 5px;
 }
 .right-nav ul .fas, li:hover{
     color: #ee5f26;
     cursor: pointer;
 }
-/* navbar end */
+/* ============================
+                main header start
+                ============================== */
 .header-container{
     display: flex;
     width: 90%;
@@ -121,10 +125,12 @@ button:hover{
 }
 .right-header:hover{
     box-shadow: 0 30px 35px rgba(0,0,0,.2);
+
+
 }
-/* ======================== 
-    main section start=====
-    ======================= */
+/* =================================== 
+                 main section start
+    ======================================================== */
 .main-section{
     max-width: 90%;
     margin: 100px 120px;
@@ -166,8 +172,9 @@ button:hover{
     font-size: 16px;
     display: inline-block;
 }
-.filled, .half{
-    color:#ee5f26
+.filled,.half{
+    color:#ee5f26;
+    
 }
 
 .text-container{
@@ -176,10 +183,51 @@ button:hover{
     font-family: 'Nunito Sans', sans-serif;
     margin-top: 50px;
 }
+.see-more-button{
+    text-align: right;
+    padding-right: 150px;
+    color: #ee5f26;
+}
+/* =======================================
+                       last section start 
+                    ========================================== */
+.discount-section{
+    height: 300px;
+    max-width: 90%;
+    padding-bottom: 50px;
+    margin: 20px;
+}
+.content-area{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    
+}
+.content-left, .content-right{
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,.2);
+}
+.content-left img{
+    padding: 30px;
+    width: 450px;
+    border-radius: 10px;
+}
+.content-right u{
+    color: #ee5f26;
+}
+/* ===================================
+                    footer section start 
+                  ============================================== */
 footer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
     background-color: black;
     height: 150px;
-    padding: 0px;
+    padding: 30px;
     margin: 0px;
 }
 .text{
@@ -193,3 +241,29 @@ footer{
     padding: 5px;
     text-align: center;
 }
+.text{
+    font-size: 15px;
+}
+/* =======================================================
+                 Responsive for small screen start
+   ======================================================== */
+@media screen (max-width: 688px){
+    .navbar{
+        display: none;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
